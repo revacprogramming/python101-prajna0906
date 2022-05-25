@@ -1,4 +1,4 @@
-fname = input("Enter file name: ")
+fname = input("Enter file name:")
 fh = open(fname)
 lst = list()
 for line in fh:
@@ -7,5 +7,6 @@ for line in fh:
         if i not in lst:
             lst.append(i)
 lst.sort()
-print(lst)
+print(lst
+     
 
