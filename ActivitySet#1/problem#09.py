@@ -9,4 +9,3 @@ for line in fh:
 lst.sort()
 print(lst
      
-
