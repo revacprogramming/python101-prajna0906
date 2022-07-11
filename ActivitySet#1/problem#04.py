@@ -9,7 +9,6 @@ elif h > 40:
 
 
 
-
 3.3
 score = input("Enter Score: ")
 score =float(score)
