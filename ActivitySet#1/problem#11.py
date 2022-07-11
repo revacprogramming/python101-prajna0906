@@ -21,3 +21,4 @@ list.sort()
 
 for hour, counts in list:
     print (hour, counts)
+    
