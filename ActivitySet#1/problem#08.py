@@ -8,4 +8,3 @@ for line in fh:
     count = count + 1
     
 print("Average spam confidence:", (average/count))
-.
