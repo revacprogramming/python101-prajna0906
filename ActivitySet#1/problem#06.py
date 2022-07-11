@@ -15,6 +15,6 @@ for i in range(len(l)):
     if l[i]< l[j]:
       l[i],l[j] = l[j],l[i]
 minimum = l[0]
-maximum = l[-1]
+maximum = l[-1] 
 print("Maximum is", maximum)
 print("Minimum is", minimum)
