@@ -1,8 +1,5 @@
-
-
 class Menu:
     """fill in class definition here"""
-
 
 m = Menu()  # Menu is a class
 m.add("idly", 10)
