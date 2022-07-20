@@ -6,7 +6,8 @@ def get_cs():
 
 def cs_to_lot(cs):
     """convert connected string to list of strings"""
-    lot = cs.split()
+    """lot = cs.split()"""
+    return [tuple(i.split('=')) for i in cs.split(';')]
 
 
 def lot_to_cs(lot):
