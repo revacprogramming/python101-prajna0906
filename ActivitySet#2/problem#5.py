@@ -6,7 +6,7 @@ def get_cs():
 
 def cs_to_dict(cs):
     """convert connect string to a dictionary"""
-    """finguriing out"""
+    return dict(i.split('=') for i in cs.split(';'))
 
 
 def dict_to_cs(d):
